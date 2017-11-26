@@ -1,0 +1,14 @@
+.card {
+	display: inline-block;
+	width: 30%;
+	height: 18em;
+	margin: 1em;
+	vertical-align: top;
+}
+
+.description {
+	overflow: hidden;
+/*	white-space: nowrap; */
+	text-overflow: ellipsis;
+	height: 4.4em;
+}
