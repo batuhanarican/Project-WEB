@@ -1,0 +1,116 @@
+.filter-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+    max-width: 73rem;
+    margin: auto;
+    margin: 1rem 0rem;
+    
+}
+.filter-container p {
+    color: white;
+    background-color:  #0079d3;
+    box-shadow: 0 .15rem 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 0;
+    box-shadow: inset 0 -.18rem 0 #005ca0;
+    transition: .15s ease-in-out;
+}
+
+.filter-container p:hover {
+    box-shadow: inset 0 -3.2rem 0 #005ca0;
+    transition: .15s ease-in-out;
+}
+
+.filter-container ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+.filter h3 {
+    margin: 0;
+}
+
+
+.filter input, .sort input {
+    display: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+.options {
+    display: flex;
+    opacity: 0;
+    height: 0rem;
+    transition: .15s ease-in-out;
+}
+
+.options input {
+    display: inline;
+}
+
+input:checked ~ .options, input:checked ~ .selections {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 .15rem 0 rgba(0,0,0,0.2);
+    opacity: 100;
+    height: 12.5rem;
+    transition: .15s ease-in-out;
+}
+
+input:checked + .filter-btn p, input:checked + .sort-btn p {
+    box-shadow: inset 0 -3.2rem 0 #005ca0;
+    opacity: 100;
+    transition: .15s ease-in-out;
+}
+
+.selections {
+    display: flex;
+    opacity: 0;
+    height: 0rem;
+    transition: .15s ease-in-out;
+}
+
+.selections input {
+    display: inline;
+}
+
+.filter-btn p, .sort-btn p {
+    padding: 1rem 0;
+    padding-left: 1.4rem;
+}
+
+.filter-btn p::after {
+    content: '';
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: -5.3rem;
+    margin-top: -.6rem;
+    background-position: 50%;
+}
+
+.filter-btn p::after {
+    background-image: url(../img/filter.svg);
+}
+
+
+.sort-btn p::after {
+    content: '';
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: -6rem;
+    margin-top: -.6rem;
+    background-position: 50%;
+}
+
+.sort-btn p::after {
+    background-image: url(../img/sort.svg);
+}

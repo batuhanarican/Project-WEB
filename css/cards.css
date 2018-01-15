@@ -14,6 +14,97 @@ main .container section .card img {
 	
 }
 
+.short-story {
+    position: absolute;
+    width: 3.4rem;
+    height: 1.2rem;
+    left: 1rem;
+    top: 1rem;
+    background-image: url(../img/short-story.svg);
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+.medium-story {
+    position: absolute;
+    width: 3.4rem;
+    height: 1.2rem;
+    left: 1rem;
+    top: 1rem;
+    background-image: url(../img/medium-story.svg);
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+.long-story {
+    position: absolute;
+    width: 3.4rem;
+    height: 1.2rem;
+    left: 1rem;
+    top: 1rem;
+    background-image: url(../img/long-story.svg);
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+.views-container {
+    position: absolute;
+    left: .85rem;
+    top: 2.8rem;
+    background-image: url(../img/views.svg);
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+.views {
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+.views-container p {
+    position: absolute;
+    color: white;
+    left: 1.7rem;
+    top: -1.1rem;
+}
+
+.views p {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fav {
+	position: absolute;
+	width: 1rem;
+	height: 1.2rem;
+	right: 1rem;
+	top: 1rem;
+}
+
+.fav input {
+	display: none;
+}
+
+.bookmark {
+	background-image: url('../img/bookmark-off.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: .3s ease-in-out;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+input:checked + .bookmark {
+	background-image: url('../img/bookmark-on.svg');
+	background-repeat: no-repeat;
+}
+
+
 main .container section .description {
 	position: relative;
 	padding: 2rem;
@@ -25,7 +116,7 @@ main .container section .card small {
 	font-weight: 400;
 }
 
-main .container section .card p {
+main .container section .card .description p {
 	position: relative;
 	overflow: hidden;
 	max-height: 4.8rem;
@@ -34,7 +125,7 @@ main .container section .card p {
 	margin-bottom: 2rem;
 }
 
-main .container section .card p:after {
+main .container section .card .description p:after {
   	position: absolute;
 	left: 0;
   	bottom: 0;

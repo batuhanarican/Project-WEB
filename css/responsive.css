@@ -9,7 +9,7 @@
 		margin-left: 1.6rem;
 	}
 	.navigation {
-		margin-right: 1.6rem;
+/*		margin-right: 1.6rem;*/
 	}
 	main header img {
 		height: 30rem;
@@ -19,7 +19,7 @@
 	}
 	.featured {
 		margin: 1rem;
-		margin-top: -4.2rem;
+		margin-top: -5.2rem;
 		padding: 2rem;
 	}
 	main section {
@@ -34,16 +34,23 @@
 	.footer-small ul {
 		grid-template-columns: 1fr 1fr;
 	}
+    .search input[type=text]{
+        width: 12.7rem;
+        right: 7.5rem;
+    }
+    input:checked ~ .search-btn {
+        left: auto;
+        right: 6rem;
+    }
 }
 
 @media all and (min-width:56rem) {
-	.hero-header {
+    .hero-header {
 		margin-top: 2.8rem;
 	}
 	.featured img {
 	width: 15rem;
 	height: 10rem;
-	-webkit-filter: brightness(.7);
 	}
 	main .container section .grid {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -61,10 +68,10 @@
 
 @media all and (min-width:75rem) {
 	.logo {
-		margin-left: -0rem;
+/*		margin-left: -0rem;*/
 	}
 	.navigation {
-		margin-right: -0rem;
+/*		margin-right: -0rem;*/
 	}
 	.hero-header {
 		margin-left: .5rem;

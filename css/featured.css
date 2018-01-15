@@ -1,7 +1,7 @@
 .featured {
 	position: relative;
 	margin: .5rem;
-	margin-top: -3rem;
+	margin-top: -3.8rem;
 	padding: 1rem;
 	background: linear-gradient(180deg, rgba(255, 201, 23, .9) 0, #ffc917 2.5rem, #ffc917);
 	z-index: 2;
@@ -9,7 +9,7 @@
     max-width: 1280px;
 }
 
-.featured h1 {
+.featured-card h1 {
 	margin-top: 0;
 }
 
@@ -24,18 +24,18 @@
 	margin-right: .8rem;
 	display: inline-block;
 	box-shadow: 0 .15em 0em rgba(0,0,0,0.2);
+    background-color: white;
 }
 
-.featured img {
-	display: block;
+.featured-card img {
+    display: block;
 	object-fit: cover;
-	width: 10rem;
-	height: 7rem;
-	-webkit-filter: brightness(.7);
+	width: 11rem;
+	height: 8rem;
+	-webkit-filter: brightness(.8);
 }
 
-
-.featured p {
+.featured-card p:nth-child(5) {
 	color: white;
     overflow: hidden;
 	position: absolute;
