@@ -56,7 +56,7 @@ input:checked ~ .options, input:checked ~ .selections {
     background-color: white;
     box-shadow: 0 .15rem 0 rgba(0,0,0,0.2);
     opacity: 100;
-    height: 12.5rem;
+    height: auto;
     transition: .15s ease-in-out;
 }
 

@@ -38,7 +38,7 @@ input:checked ~ .search-btn {
 
 .search input[type=text]{
     font-family: NS Sans, Segoe UI, Myriad,Verdana, sans-serif;
-	color: #003082;
+	  color: #003082;
     font-size: 1rem;
     border: none;
     position: absolute;
