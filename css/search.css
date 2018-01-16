@@ -13,41 +13,26 @@
     background-size: contain;
 }
 
-.search-box {
-    opacity: 0;
-    display: none;
-    padding: .2rem;
-}
-
-input:checked ~ .search-box {
-    display: block;
-    opacity: 100;
-    left: 0;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-}
-
 input:checked ~ .search-btn {
     background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cg%3E%20%20%3Cpath%20d%3D%22M24.5%2C25c-0.128%2C0-0.256-0.049-0.354-0.146l-14-14c-0.195-0.195-0.195-0.512%2C0-0.707s0.512-0.195%2C0.707%2C0l14%2C14%20%20%20c0.195%2C0.195%2C0.195%2C0.512%2C0%2C0.707C24.756%2C24.951%2C24.628%2C25%2C24.5%2C25z%22%2F%3E%20%3C%2Fg%3E%3C%2Fg%3E%3Cg%3E%20%3Cg%3E%20%20%3Cpath%20d%3D%22M10.5%2C25c-0.128%2C0-0.256-0.049-0.354-0.146c-0.195-0.195-0.195-0.512%2C0-0.707l14-14c0.195-0.195%2C0.512-0.195%2C0.707%2C0%20%20%20s0.195%2C0.512%2C0%2C0.707l-14%2C14C10.756%2C24.951%2C10.628%2C25%2C10.5%2C25z%22%2F%3E%20%3C%2Fg%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%236a6a7a%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
     margin-right: 15.5rem;
     position: absolute;
-    left: 1.2rem;
+    left: .8rem;
     z-index: 1;
 }
 
-.search input[type=text]{
+.search-box {
     font-family: NS Sans, Segoe UI, Myriad,Verdana, sans-serif;
-	  color: #003082;
+    color: #003082;
     font-size: 1rem;
     border: none;
     position: absolute;
     background-color: transparent;
-    width: calc(100vw - 5.5rem);
+    width: calc(100vw - 5rem);
     max-width: 70rem;
     right: 0;
     margin: 0rem 1rem;
-    top: .6rem;
+    top: -3rem;
     height: 2.5rem;
     background-color: white;
     border-bottom: .5px #003082 solid;

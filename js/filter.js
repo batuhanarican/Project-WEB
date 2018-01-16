@@ -25,6 +25,14 @@ var liefde = getLiefde.checked;
 var liefdeData;
 var changeLiefde = document.querySelectorAll(".liefde-data");
 
+var getFilter = document.getElementById("filter-btn");
+var changeFilter = document.querySelectorAll(".options");
+var toggleFilter = 0;
+
+var getSort = document.getElementById("sort-btn");
+var changeSort = document.querySelectorAll(".selections");
+var toggleSort = 0;
+
 function checkFilosofie() {
     filosofieData = getFilosofie.checked;
     console.log(getFilosofie.checked);
@@ -149,6 +157,47 @@ function returnLiefde() {
         }
     }
 }
+
+function openFilter() {
+    console.log("Filter button - on");
+    if (toggleFilter === 0) {
+        for (var i = 0; i < changeFilter.length; i ++) {
+            changeFilter[i].style.opacity = '100';
+            changeFilter[i].style.height = 'auto';
+            toggleFilter =+ 1;
+            }
+        }
+    else {
+        console.log("Filter button - off");
+        for (var i = 0; i < changeFilter.length; i ++) {
+            changeFilter[i].style.opacity = '0';
+            changeFilter[i].style.height = '0';
+            toggleFilter -= 1;
+            }
+    }
+}
+
+function openSort() {
+    console.log("Sort button - on");
+    if (toggleSort === 0) {
+        for (var i = 0; i < changeSort.length; i ++) {
+            changeSort[i].style.opacity = '100';
+            changeSort[i].style.height = 'auto';
+            toggleSort =+ 1;
+            }
+        }
+    else {
+        console.log("Sort button - off");
+        for (var i = 0; i < changeSort.length; i ++) {
+            changeSort[i].style.opacity = '0';
+            changeSort[i].style.height = '0';
+            toggleSort -= 1;
+            }
+    }
+}
+
+getFilter.addEventListener('click', openFilter, false);
+getSort.addEventListener('click', openSort, false);
 
 getFilosofie.addEventListener('click', checkFilosofie, false);
 getVrolijk.addEventListener('click', checkVrolijk, false);

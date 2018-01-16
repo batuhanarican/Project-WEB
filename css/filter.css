@@ -15,6 +15,7 @@
     margin: 0;
     box-shadow: inset 0 -.18rem 0 #005ca0;
     transition: .15s ease-in-out;
+    cursor: pointer;
 }
 
 .filter-container p:hover {
@@ -31,9 +32,7 @@
     margin: 0;
 }
 
-
 .filter input, .sort input {
-    display: none;
     width: 1.5rem;
     height: 1.5rem;
     vertical-align: middle;
@@ -41,6 +40,8 @@
 
 .options {
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
     opacity: 0;
     height: 0rem;
     transition: .15s ease-in-out;
@@ -48,26 +49,13 @@
 
 .options input {
     display: inline;
-}
-
-input:checked ~ .options, input:checked ~ .selections {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    box-shadow: 0 .15rem 0 rgba(0,0,0,0.2);
-    opacity: 100;
-    height: auto;
-    transition: .15s ease-in-out;
-}
-
-input:checked + .filter-btn p, input:checked + .sort-btn p {
-    box-shadow: inset 0 -3.2rem 0 #005ca0;
-    opacity: 100;
-    transition: .15s ease-in-out;
+    cursor: pointer;
 }
 
 .selections {
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
     opacity: 0;
     height: 0rem;
     transition: .15s ease-in-out;
@@ -75,14 +63,15 @@ input:checked + .filter-btn p, input:checked + .sort-btn p {
 
 .selections input {
     display: inline;
+    cursor: pointer;
 }
 
-.filter-btn p, .sort-btn p {
+.filter p, .sort p {
     padding: 1rem 0;
     padding-left: 1.4rem;
 }
 
-.filter-btn p::after {
+.filter p::after {
     content: '';
     background-repeat: no-repeat;
     position: absolute;
@@ -94,12 +83,12 @@ input:checked + .filter-btn p, input:checked + .sort-btn p {
     background-position: 50%;
 }
 
-.filter-btn p::after {
+.filter p::after {
     background-image: url(../img/filter.svg);
 }
 
 
-.sort-btn p::after {
+.sort p::after {
     content: '';
     background-repeat: no-repeat;
     position: absolute;
@@ -111,6 +100,6 @@ input:checked + .filter-btn p, input:checked + .sort-btn p {
     background-position: 50%;
 }
 
-.sort-btn p::after {
+.sort p::after {
     background-image: url(../img/sort.svg);
 }
