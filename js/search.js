@@ -15,7 +15,7 @@ function openSearch() {
     else {
         console.log("Search button - off");
         for (var i = 0; i < changeSearch.length; i ++) {
-            changeSearch[i].style.top = '-3rem';
+            changeSearch[i].style.top = '-3.5rem';
             toggleSearch -= 1;
             }
     }

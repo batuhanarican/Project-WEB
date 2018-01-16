@@ -32,7 +32,7 @@ input:checked ~ .search-btn {
     max-width: 70rem;
     right: 0;
     margin: 0rem 1rem;
-    top: -3rem;
+    top: -3.5rem;
     height: 2.5rem;
     background-color: white;
     border-bottom: .5px #003082 solid;
