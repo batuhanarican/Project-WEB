@@ -1,66 +1,66 @@
 @font-face {
     font-family: NS Sans;
-	font-weight: 400;
+    font-weight: 400;
     src: url(../fonts/nssans__-webfont.woff);
 }
 
 @font-face {
     font-family: NS Sans;
-	font-weight: 600;
+    font-weight: 600;
     src: url(../fonts/nssanbol-webfont.woff);
 }
 
 @font-face {
     font-family: NS Sans;
-	font-style: italic;
-	font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
     src: url(../fonts/nssanita-webfont.woff);
 }
 
 @font-face {
     font-family: NS Sans;
-	font-style: italic;
-	font-weight: 600;
+    font-style: italic;
+    font-weight: 600;
     src: url(../fonts/nssanbit-webfont.woff);
 }
 
 body {
-	margin: 0;
-	font-family: NS Sans, Segoe UI, Myriad,Verdana, sans-serif;
-	color: #003082;
-	background-color: #e6e6e9;
+    margin: 0;
+    font-family: NS Sans, Segoe UI, Myriad, Verdana, sans-serif;
+    color: #003082;
+    background-color: #e6e6e9;
 }
 
 h1 {
-	font-weight: 400;
-	margin: 1rem 0 1.4rem 0;
+    font-weight: 400;
+    margin: 1rem 0 1.4rem 0;
 }
 
 h2 {
-	font-size: 1.25rem;
-	margin: .2rem 0;
-	font-weight: 400;
+    font-size: 1.25rem;
+    margin: .2rem 0;
+    font-weight: 400;
 }
 
 h3 {
-	font-size: 1em;
-	margin: .8rem 0 .2rem 0rem;
-	font-weight: 600;
+    font-size: 1em;
+    margin: .8rem 0 .2rem 0rem;
+    font-weight: 600;
 }
 
 main {
-	margin-top: 3.8rem;
-	position: relative;
+    margin-top: 3.8rem;
+    position: relative;
 }
 
 nav {
     position: relative;
-	display: flex;
-	align-items: center;
-	margin: auto;
-	max-width: 72rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 72rem;
     height: 3.2rem;
-	padding: .3rem 1.4rem .3rem;
+    padding: .3rem 1.4rem .3rem;
 }
 
 nav ul li a {
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 nav ul li {
-/*    position: relative;*/
+    /*    position: relative;*/
     background-repeat: no-repeat;
     background-position: 50%;
     height: 2rem;
@@ -88,197 +88,196 @@ header {
     top: 0;
     width: 100%;
     position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: white;
-	z-index: 999;
-    box-shadow: 0 .15em 0em rgba(0,0,0,0.2);
-    
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0 .15em 0em rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-	margin-right: 1.5rem;
-	padding-top: .25rem;
-
+    margin-right: 1.5rem;
+    padding-top: .25rem;
 }
 
 nav ul {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .menu {
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     padding: 1.2rem;
     background-size: contain;
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22icon%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpath%20d%3D%22M26%2C26H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C25%2C9%2C25h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C26%2C26%2C26z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C16H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C15%2C9%2C15h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C16%2C26%2C16z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C21H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C20%2C9%2C20h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C21%2C26%2C21z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C11H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C10%2C9%2C10h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C11%2C26%2C11z%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23003082%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22icon%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpath%20d%3D%22M26%2C26H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C25%2C9%2C25h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C26%2C26%2C26z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C16H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C15%2C9%2C15h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C16%2C26%2C16z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C21H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C20%2C9%2C20h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C21%2C26%2C21z%22%2F%3E%20%3Cpath%20d%3D%22M26%2C11H9c-0.3%2C0-0.5-0.2-0.5-0.5S8.7%2C10%2C9%2C10h17c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5S26.3%2C11%2C26%2C11z%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23003082%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
 }
 
 .navigation {
-	display: flex;
-	flex-grow: 1;
-	justify-content: flex-end;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .navigation li a {
-	text-decoration: none;
-	margin-left: 1rem;
-	color: #003082;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #003082;
 }
 
 .navigation li a:visited {
-	color: #003082;
+    color: #003082;
 }
 
 main header {
-	position: relative;
-	box-sizing: border-box;
-	padding: 0;
-	z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    z-index: 1;
     box-shadow: 0 0;
 }
 
 main header .container {
-	display: block;
-	margin: auto;	
+    display: block;
+    margin: auto;
 }
 
 main header img {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	height: 18.5rem;
-	vertical-align: middle;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 18.5rem;
+    vertical-align: middle;
 }
 
 .hero-header {
-	color: white;
-	background-color: rgba(0, 48, 130, .8);
-	top: 0;
-	padding: 1rem 2rem;
-	margin: .5rem;
-	position: absolute;
-	width: calc(100vw - 13rem);
-	max-width: 35rem;
-	box-shadow: 0 .15em 0em rgba(0,0,0,0.2);
+    color: white;
+    background-color: rgba(0, 48, 130, .8);
+    top: 0;
+    padding: 1rem 2rem;
+    margin: .5rem;
+    position: absolute;
+    width: calc(100vw - 13rem);
+    max-width: 35rem;
+    box-shadow: 0 .15em 0em rgba(0, 0, 0, 0.2);
 }
 
 .hero-header h2 {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero-header a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 main .container {
-	margin: auto;
-	margin: .5rem;
-	margin-top: 2rem;
+    margin: auto;
+    margin: .5rem;
+    margin-top: 2rem;
 }
 
 main .container section .grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
 }
 
 .cta {
-	position: absolute;
-	display: inline-block;
-	left: 2rem;
-	bottom: 2rem;
-	background-color: #0079d3;
-	box-shadow: inset 0 -.18rem 0 #005ca0;
-	text-decoration: none;
-	padding: .85rem .85rem .85rem 1.125rem;
-	color: white;
-	transition: box-shadow .15s ease-in-out;
+    position: absolute;
+    display: inline-block;
+    left: 2rem;
+    bottom: 2rem;
+    background-color: #0079d3;
+    box-shadow: inset 0 -.18rem 0 #005ca0;
+    text-decoration: none;
+    padding: .85rem .85rem .85rem 1.125rem;
+    color: white;
+    transition: box-shadow .15s ease-in-out;
 }
+
 .cta:after {
-	content: "";
-	padding-right: 2.9375rem;
-	background-repeat: no-repeat;
-	background-position: 100%;
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2220.2%2C17.5%2014.7%2C23%2016.3%2C23%2021.8%2C17.5%2016.3%2C12%2014.7%2C12%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23FFFFFF%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+    content: "";
+    padding-right: 2.9375rem;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2220.2%2C17.5%2014.7%2C23%2016.3%2C23%2021.8%2C17.5%2016.3%2C12%2014.7%2C12%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23FFFFFF%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
 }
 
 .cta:hover {
-	box-shadow: inset 0 -3rem 0 #005ca0;
-	transition: box-shadow .15s ease-in-out;
+    box-shadow: inset 0 -3rem 0 #005ca0;
+    transition: box-shadow .15s ease-in-out;
 }
 
 footer .container {
-	background-color: white;
-	padding: 3rem 3rem 1rem 3rem;
-	margin-top: 3rem;
+    background-color: white;
+    padding: 3rem 3rem 1rem 3rem;
+    margin-top: 3rem;
 }
 
 footer .container .grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 1rem;
-	margin: auto;
-	max-width: 69rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: auto;
+    max-width: 69rem;
     margin-top: -1rem;
 }
 
 footer .container .grid ul {
-	margin-top: -.5rem;
-	list-style-type: none;
-	padding: 0;
-	line-height: 2rem;
+    margin-top: -.5rem;
+    list-style-type: none;
+    padding: 0;
+    line-height: 2rem;
 }
 
 footer .container .grid a {
-	text-decoration: none;
-	color: #0079d3;
+    text-decoration: none;
+    color: #0079d3;
 }
 
 .footer-small {
-	position: relative;
-	border-top: .0625rem solid #e6e6e9;
-	padding-top: 1rem;
-	width: 100%;
-	max-width: 69rem;
-	margin: auto;
+    position: relative;
+    border-top: .0625rem solid #e6e6e9;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 69rem;
+    margin: auto;
 }
 
 .footer-small ul {
-	padding: 0;
-	display: grid;
-	grid-template-columns: 1fr;
-	list-style-type: none;
-	line-height: 1.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+    line-height: 1.5rem;
 }
 
 .footer-small ul li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .footer-small ul li a {
-	text-decoration: none;
-	color: #6a6a7a;
-	
+    text-decoration: none;
+    color: #6a6a7a;
 }
 
 .footer-small img {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 2rem;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 2rem;
 }
 
 footer .container .grid .arrow-link {
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%230079d3%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%230079d3%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
 }
 
 .footer-small .arrow-link {
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%236a6a7a%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E")
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%236a6a7a%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E")
 }
 
-footer .container .grid .arrow-link:hover, .footer-small .arrow-link:hover {
-	color: #003082;
-	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23003082%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+footer .container .grid .arrow-link:hover,
+.footer-small .arrow-link:hover {
+    color: #003082;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2219.3%2C17.5%2015.3%2C21.5%2016.7%2C21.5%2020.7%2C17.5%2016.7%2C13.5%2015.3%2C13.5%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23003082%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
 }
