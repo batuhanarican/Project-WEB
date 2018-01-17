@@ -27,6 +27,9 @@
     background-color: white;
 }
 
+/*Zo moet het zijn*/
+/*section.featured article img {}*/
+
 .featured-card img {
     display: block;
 	object-fit: cover;
