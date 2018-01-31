@@ -1,3 +1,184 @@
+h1 {
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+main {
+    margin: auto;
+    max-width: 72rem;
+}
+
+header {
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+header {
+    max-width: 72rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header img {
+    margin-left: 2rem;
+}
+
+main div.container-form {
+    margin: .8rem;
+    background-color: white;
+    padding: 1.2rem;
+    padding-bottom: 3rem;
+    box-shadow: 0 .15em 0em rgba(0, 0, 0, 0.2);
+}
+
+main div.container-form div.grid-form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main div.container-form div.grid-form div.login {
+    display: grid;
+    background-color: #ffc917;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+main div.container-form div.grid-form h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+main div.container-form div.grid-form form div.controls {
+    margin: 0;
+}
+
+main div.container-form div.grid-form div.register {
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+
+main div.container-form p {
+    color: #444444;
+}
+
+main div.container-form div.grid-form div.input {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+main div.container-form form div.input {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+main div.container-form form label {
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+main div.container-form form div.input input {
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+    max-width: 30rem;
+    border-radius: 0;
+    border: 1px solid #b5b5bc;
+}
+
+main div.container-form div.grid-form form input {
+    border: none;
+}
+
+main div.container-form form div.input input:focus {
+    outline: none;
+}
+
+main div.container-form form div.terms {
+    margin: 1.5rem 0rem;
+    max-width: 30rem;
+    cursor: pointer;
+}
+
+main div.container-form form button {
+    font-family: NS Sans, Segoe UI, Myriad, Verdana, sans-serif;
+    font-size: 1rem;
+    height: 3rem;
+    border: none;
+    background-color: #0079d3;
+    box-shadow: inset 0 -.18rem 0 #005ca0;
+    cursor: pointer;
+    padding: .85rem .85rem .85rem 1.125rem;
+    color: white;
+    transition: box-shadow .15s ease-in-out;
+    margin: 1.2rem;
+}
+
+main div.container-form div.login form button {
+    margin: 1.2rem 0rem 0rem 0rem;
+}
+    
+main div.container-form form button:after {
+    content: "";
+    padding-right: 2.9375rem;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2235px%22%20height%3D%2235px%22%20viewBox%3D%220%200%2035%2035%22%20enable-background%3D%22new%200%200%2035%2035%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%20%3Cpolygon%20points%3D%2220.2%2C17.5%2014.7%2C23%2016.3%2C23%2021.8%2C17.5%2016.3%2C12%2014.7%2C12%20%20%22%2F%3E%3C%2Fg%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20%23FFFFFF%3B%20%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+}
+
+main div.container-form form button:hover {
+    box-shadow: inset 0 -3rem 0 #005ca0;
+    transition: box-shadow .15s ease-in-out;
+}
+
+main div.container-form div.register a {
+    text-decoration: none;
+    color: #0079d3;
+    border-bottom: 2px solid #e6e6e9;
+    padding-bottom: .8rem;
+}
+
+main div.container-form div.register a:hover {
+    border-bottom: 2px solid #0079d3;
+}
+
+main div.container-form form div.controls a {
+    text-decoration: none;
+    color: #0079d3;
+    border-bottom: 2px solid #e6e6e9;
+    padding-bottom: .8rem;
+}
+
+main div.container-form form div.controls a:hover {
+    border-bottom: 2px solid #0079d3;
+}
+
+main div.container-form div.register ul {
+    list-style-image: url(../img/checked.svg);
+    padding-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: -1rem;
+}
+
+main div.container-form div.register ul li p {
+    font-size: 1rem;
+    margin: 0;
+}
+
 footer .container {
-	background-color: #e6e6e9;
+    background-color: transparent;
+    margin-top: 3rem;
 }

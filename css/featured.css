@@ -1,7 +1,7 @@
-.featured {
+section.featured {
 	position: relative;
 	margin: .5rem;
-	margin-top: -3.8rem;
+	margin-top: -2.8rem;
 	padding: 1rem;
 	background: linear-gradient(180deg, rgba(255, 201, 23, .9) 0, #ffc917 2.5rem, #ffc917);
 	z-index: 2;
@@ -9,17 +9,17 @@
     max-width: 1280px;
 }
 
-.featured-card h1 {
+section.featured h2 {
 	margin-top: 0;
 }
 
-.featured-container {
+section.featured div.featured-container {
 	position: relative;
 	white-space: nowrap;
 	overflow: auto;
 }
 
-.featured-card {
+section.featured article {
 	position: relative;
 	margin-right: .8rem;
 	display: inline-block;
@@ -27,10 +27,7 @@
     background-color: white;
 }
 
-/*Zo moet het zijn*/
-/*section.featured article img {}*/
-
-.featured-card img {
+section.featured article img {
     display: block;
 	object-fit: cover;
 	width: 11rem;
@@ -38,7 +35,8 @@
 	-webkit-filter: brightness(.8);
 }
 
-.featured-card p:nth-child(5) {
+section.featured article h3 {
+    font-size: 1rem;
 	color: white;
     overflow: hidden;
 	position: absolute;

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/elements.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Welkom op de website van NS | NS</title>
+</head>
+
+<body>
+    <header>
+            <a href="index.html"><img src="mat/nslogo.svg" alt="Logo NS" class="logo2"></a>
+    </header>
+    <main>
+        <div class="container-form">
+            <h1>NS-account aanvragen</h1>
+            <p>Vul de volgende gegevens in om uw NS-account aan te vragen.</p>
+            <h2>Inloggegevens</h2>
+            <form action="register.html">
+                <div class="input">
+                    <label for="name">Naam</label>
+                    <input type="text" name="name" id="name" oninvalid="this.setCustomValidity('Vul uw naam in')" oninput="setCustomValidity('')" required> </div>
+                <div class="input">
+                    <label for="username">Gebruikersnaam</label>
+                    <input type="text" name="username" id="username" oninvalid="this.setCustomValidity('Vul een gebruikersnaam in')" oninput="setCustomValidity('')" required> </div>
+                <div class="input">
+                    <label for="email">E-mailadres</label>
+                    <input type="email" name="email" id="email" oninvalid="this.setCustomValidity('Vul uw e-mailadres in')" oninput="setCustomValidity('')" required> </div>
+                <div class="input">
+                    <label for="email-repeat">Bevestig e-mailadres</label>
+                    <input type="email" name="email-repeat" id="email-repeat" oninvalid="this.setCustomValidity('Bevestig uw e-mailadres')" oninput="setCustomValidity('')" required> </div>
+                <div class="input">
+                    <label for="psw">Wachtwoord</label>
+                    <input type="password" name="psw" id="psw" oninvalid="this.setCustomValidity('Vul een wachtwoord in')" oninput="setCustomValidity('')" required> </div>
+                <div class="input">
+                    <label for="psw-repeat">Bevestig wachtwoord</label>
+                    <input type="password" name="psw-repeat" id="psw-repeat" oninvalid="this.setCustomValidity('Bevestig uw wachtwoord')" oninput="setCustomValidity('')" required> </div>
+                <div class="terms">
+                   <label for="terms">
+                    <input type="checkbox" name="terms" id="terms" required> Ik ga akkoord met de voorwaarden</label>
+                </div>
+                <div class="controls">
+                    <a href="login.html" class="action-link" id="cancel-sign-up">Annuleren</a>
+                    <button type="submit" value="Submit">Aanvragen</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-small">
+                <div class="grid-element">
+                    <ul>
+                        <li><a href="#" class="arrow-link">Voorwaarden</a></li>
+                        <li><a href="#" class="arrow-link">Privacybeleid</a></li>
+                        <li><a href="#" class="arrow-link">Klantenservice</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

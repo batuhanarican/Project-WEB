@@ -18,7 +18,6 @@
     <header>
         <nav>
             <a href="index.html"><img src="mat/nslogo.svg" alt="Logo NS" class="logo"></a>
-            <a class="menu" href="#"></a>
             <ul class="navigation">
                 <li>
                     <label class="search">
@@ -34,16 +33,17 @@
         </nav>
     </header>
     <main>
-        <header><img src="./img/dienstregeling-2017-1.jpg" alt="dienstregeling">
+        <header><img src="./img/hero.jpg" alt="dienstregeling">
             <div class="container">
                 <div class="hero-header">
-                    <h2>De 99 verhalen van J. Molovich</h2> <a href="#stories" class="arrow-link">Bekijk alle verhalen</a> </div>
+                    <h1>De 99 verhalen van J. Molovich</h1> <a href="#stories" class="arrow-link">Bekijk alle verhalen</a> </div>
             </div>
         </header>
-        <div class="featured">
-            <h1>Uitgelicht</h1>
+        <section class="featured">
+            <h2>Uitgelicht</h2>
             <div class="featured-container">
-                <div class="featured-card"> <img src="./img/Denkbeeldig.jpg" alt="denkbeeldig">
+                <article> 
+                    <img src="./img/Denkbeeldig.jpg" alt="denkbeeldig">
                     <div class="short-story"></div>
                     <div class="views-container">
                         <div class="views"></div>
@@ -51,9 +51,10 @@
                     </div>
                     <label class="fav">
                         <input type="checkbox"><span class="bookmark"></span> </label>
-                    <p>Droom</p>
-                </div>
-                <div class="featured-card"> <img src="./img/Geluid.jpg" alt="denkbeeldig">
+                    <h3>Droom</h3>
+                </article>
+                <article> 
+                    <img src="./img/Geluid.jpg" alt="denkbeeldig">
                     <div class="long-story"></div>
                     <div class="views-container">
                         <div class="views"></div>
@@ -61,9 +62,10 @@
                     </div>
                     <label class="fav">
                         <input type="checkbox"><span class="bookmark"></span> </label>
-                    <p>Blind</p>
-                </div>
-                <div class="featured-card"> <img src="./img/Nieuwsgierig.jpg" alt="denkbeeldig">
+                    <h3>Blind</h3>
+                </article>
+                <article> 
+                    <img src="./img/Nieuwsgierig.jpg" alt="denkbeeldig">
                     <div class="medium-story"></div>
                     <div class="views-container">
                         <div class="views"></div>
@@ -71,9 +73,10 @@
                     </div>
                     <label class="fav">
                         <input type="checkbox"><span class="bookmark"></span> </label>
-                    <p>Kinderverhaal</p>
-                </div>
-                <div class="featured-card"> <img src="./img/Geluid.jpg" alt="denkbeeldig">
+                    <h3>Kinderverhaal</h3>
+                </article>
+                <article> 
+                    <img src="./img/Geluid.jpg" alt="denkbeeldig">
                     <div class="short-story"></div>
                     <div class="views-container">
                         <div class="views"></div>
@@ -81,9 +84,10 @@
                     </div>
                     <label class="fav">
                         <input type="checkbox"><span class="bookmark"></span> </label>
-                    <p>Kinderverhaal</p>
-                </div>
-                <div class="featured-card"> <img src="./img/Nieuwsgierig.jpg" alt="denkbeeldig">
+                    <h3>Kinderverhaal</h3>
+                </article>
+                <article> 
+                    <img src="./img/Nieuwsgierig.jpg" alt="denkbeeldig">
                     <div class="long-story"></div>
                     <div class="views-container">
                         <div class="views"></div>
@@ -91,141 +95,139 @@
                     </div>
                     <label class="fav">
                         <input type="checkbox"><span class="bookmark"></span> </label>
-                    <p>Kinderverhaal</p>
+                    <h3>Kinderverhaal</h3>
+                </article>
+            </div>
+        </section>
+        <section class="container">
+            <h4>Alle verhalen</h4>
+            <div class="filter-container">
+                <div class="filter">
+                    <p id="filter-btn">Filteren</p>
+                    <div class="options">
+                        <ul>
+                            <li>
+                                <input checked="checked" type="checkbox" id="short-story">0 - 5 min</li>
+                            <li>
+                                <input checked="checked" type="checkbox" id="medium-story">5 - 10 min</li>
+                            <li>
+                                <input checked="checked" type="checkbox" id="long-story">10+ min</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <input checked="checked" value="true" type="checkbox" id="vrolijk">Vrolijk</li>
+                            <li>
+                                <input checked="checked" value="true" type="checkbox" id="drama">Drama</li>
+                            <li>
+                                <input checked="checked" value="true" type="checkbox" id="filosofie">Filosofie</li>
+                            <li>
+                                <input checked="checked" value="true" type="checkbox" id="komedie">Komedie</li>
+                            <li>
+                                <input checked="checked" value="true" type="checkbox" id="liefde">Liefde</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sort">
+                    <p id="sort-btn">Sorteren</p>
+                    <div class="selections">
+                        <ul>
+                            <li>
+                                <input type="radio" name="theme" id="alfabet">Alfabetisch</li>
+                            <li>
+                                <input type="radio" name="theme" id="chronologie">Chronologisch</li>
+                            <li>
+                                <input type="radio" name="theme" id="datum">Datum</li>
+                            <li>
+                                <input type="radio" name="theme" id="leesduur">Leesduur</li>
+                            <li>
+                                <input type="radio" name="theme" id="meest-gelezen">Meest gelezen</li>
+                            <li>
+                                <input type="radio" name="theme" id="meest-bewaard">Meest bewaard</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="stories">
-            <section>
-                <h2>Alle verhalen</h2>
-                <div class="filter-container">
-                    <div class="filter">
-                        <p id="filter-btn">Filteren</p>
-                        <div class="options">
-                            <ul>
-                                <li>
-                                    <input checked="checked" type="checkbox" id="short-story">0 - 5 min</li>
-                                <li>
-                                    <input checked="checked" type="checkbox" id="medium-story">5 - 10 min</li>
-                                <li>
-                                    <input checked="checked" type="checkbox" id="long-story">10+ min</li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <input checked="checked" value="true" type="checkbox" id="vrolijk">Vrolijk</li>
-                                <li>
-                                    <input checked="checked" value="true" type="checkbox" id="drama">Drama</li>
-                                <li>
-                                    <input checked="checked" value="true" type="checkbox" id="filosofie">Filosofie</li>
-                                <li>
-                                    <input checked="checked" value="true" type="checkbox" id="komedie">Komedie</li>
-                                <li>
-                                    <input checked="checked" value="true" type="checkbox" id="liefde">Liefde</li>
-                            </ul>
-                        </div>
+            <div class="grid">
+                <article class="card filosofie-data"> <img src="./img/Denkbeeldig.jpg" alt="">
+                    <div class="short-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>177</p>
                     </div>
-                    <div class="sort">
-                        <p id="sort-btn">Sorteren</p>
-                        <div class="selections">
-                            <ul>
-                                <li>
-                                    <input type="radio" name="theme" id="alfabet">Alfabetisch</li>
-                                <li>
-                                    <input type="radio" name="theme" id="chronologie">Chronologisch</li>
-                                <li>
-                                    <input type="radio" name="theme" id="datum">Datum</li>
-                                <li>
-                                    <input type="radio" name="theme" id="leesduur">Leesduur</li>
-                                <li>
-                                    <input type="radio" name="theme" id="meest-gelezen">Meest gelezen</li>
-                                <li>
-                                    <input type="radio" name="theme" id="meest-bewaard">Meest bewaard</li>
-                            </ul>
-                        </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Droom</h4> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                        <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+                <article class="card vrolijk-data"> <img src="./img/Nieuwsgierig.jpg" alt="">
+                    <div class="long-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>121</p>
                     </div>
-                </div>
-                <div class="grid">
-                    <article class="card filosofie-data"> <img src="./img/Denkbeeldig.jpg" alt="">
-                        <div class="short-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>177</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Droom</h2> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
-                            <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                    <article class="card vrolijk-data"> <img src="./img/Nieuwsgierig.jpg" alt="">
-                        <div class="long-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>121</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Kinderboek</h2> <small>Gepubliceerd op 3 juni 2011 door Molovich</small>
-                            <p>Piepende remmen, bus 21 komt tot stilstand. De stem van de buschauffeur, naar mij gericht, zakelijk, niet vriendelijk, niet onvriendelijk: ‘Centraal Station, eindhalte’.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                    <article class="card drama-data"> <img src="./img/Geluid.jpg" alt="">
-                        <div class="medium-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>82</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Blind</h2> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
-                            <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                    <article class="card komedie-data"> <img src="./img/Denkbeeldig.jpg" alt="">
-                        <div class="short-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>177</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Droom</h2> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
-                            <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                    <article class="card liefde-data"> <img src="./img/Nieuwsgierig.jpg" alt="">
-                        <div class="long-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>121</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Kinderboek</h2> <small>Gepubliceerd op 3 juni 2011 door Molovich</small>
-                            <p>Piepende remmen, bus 21 komt tot stilstand. De stem van de buschauffeur, naar mij gericht, zakelijk, niet vriendelijk, niet onvriendelijk: ‘Centraal Station, eindhalte’.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                    <article class="card filosofie-data"> <img src="./img/Geluid.jpg" alt="">
-                        <div class="medium-story"></div>
-                        <div class="views-container">
-                            <div class="views"></div>
-                            <p>82</p>
-                        </div>
-                        <label class="fav">
-                            <input type="checkbox"><span class="bookmark"></span> </label>
-                        <div class="description">
-                            <h2>Blind</h2> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
-                            <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
-                        </div> <a href="#" class="cta">Lees meer</a> </article>
-                </div>
-            </section>
-        </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Kinderboek</h4> <small>Gepubliceerd op 3 juni 2011 door Molovich</small>
+                        <p>Piepende remmen, bus 21 komt tot stilstand. De stem van de buschauffeur, naar mij gericht, zakelijk, niet vriendelijk, niet onvriendelijk: ‘Centraal Station, eindhalte’.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+                <article class="card drama-data"> <img src="./img/Geluid.jpg" alt="">
+                    <div class="medium-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>82</p>
+                    </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Blind</h4> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                        <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+                <article class="card komedie-data"> <img src="./img/Denkbeeldig.jpg" alt="">
+                    <div class="short-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>177</p>
+                    </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Droom</h4> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                        <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+                <article class="card liefde-data"> <img src="./img/Nieuwsgierig.jpg" alt="">
+                    <div class="long-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>121</p>
+                    </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Kinderboek</h4> <small>Gepubliceerd op 3 juni 2011 door Molovich</small>
+                        <p>Piepende remmen, bus 21 komt tot stilstand. De stem van de buschauffeur, naar mij gericht, zakelijk, niet vriendelijk, niet onvriendelijk: ‘Centraal Station, eindhalte’.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+                <article class="card filosofie-data"> <img src="./img/Geluid.jpg" alt="">
+                    <div class="medium-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>82</p>
+                    </div>
+                    <label class="fav">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="description">
+                        <h4>Blind</h4> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                        <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten.</p>
+                    </div> <a href="#" class="cta">Lees meer</a> </article>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="container">
             <div class="grid">
                 <div class="grid-element">
-                    <h4>Direct naar...</h4>
+                    <h6>Direct naar...</h6>
                     <ul>
                         <li><a href="#" class="arrow-link">Reisinformatie</a></li>
                         <li><a href="#" class="arrow-link">Uitgelicht</a></li>
@@ -234,7 +236,7 @@
                     </ul>
                 </div>
                 <div class="grid-element">
-                    <h4>Onze producten</h4>
+                    <h6>Onze producten</h6>
                     <ul>
                         <li><a href="#" class="arrow-link">Kaartjes &amp; Toeslagen</a></li>
                         <li><a href="#" class="arrow-link">Abonnementen</a></li>
@@ -244,7 +246,7 @@
                     </ul>
                 </div>
                 <div class="grid-element">
-                    <h4>Meer NS</h4>
+                    <h6>Meer NS</h6>
                     <ul>
                         <li><a href="#" class="arrow-link">Over NS</a></li>
                         <li><a href="#" class="arrow-link">Werken bij NS</a></li>
@@ -269,6 +271,7 @@
     </footer>
     <script src="./js/filter.js"></script>
     <script src="./js/search.js"></script>
+    <script src="./js/bookmark.js"></script>
 </body>
 
 </html>

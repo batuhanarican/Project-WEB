@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<link rel="stylesheet" type="text/css" href="css/elements.css">
-	<link rel="stylesheet" type="text/css" href="css/search.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<title>Welkom op de website van NS | NS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/elements.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Welkom op de website van NS | NS</title>
 </head>
+
 <body>
-	<header>
-        <nav>
-            <a href="index.html"><img src="mat/nslogo.svg" alt="Logo NS" class="logo"></a>
-            <a class="menu" href="#"></a>
-            <ul class="navigation">
-                <li>
-                    <label class="search">
-                        <input type="checkbox"><span class="search-btn" id="search-btn"></span> </label>
-                    <input type="text" placeholder="Zoek verhaal" class="search-box"> </li>
-                <li>
-                    <a href="login.html"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <a href="index.html"><img src="mat/nslogo.svg" alt="Logo NS" class="logo2"></a>
     </header>
-	<main>
-		
-	</main>
-	<footer>
-		<div class="container">
-			<div class="footer-small">
+    <main>
+        <div class="container-form">
+            <h1>Welkom bij uw NS-account</h1>
+            <div class="grid-form">
+                <div class="login">
+                    <h2>Inloggen</h2>
+                    <form action="login.html">
+                        <div class="input">
+                            <label for="email">E-mailadres</label>
+                            <input type="email" name="email" id="email" oninvalid="this.setCustomValidity('Vul uw e-mailadres in')" oninput="setCustomValidity('')" required> </div>
+                        <div class="input">
+                            <label for="psw">Wachtwoord</label>
+                            <input type="password" name="psw" id="psw" oninvalid="this.setCustomValidity('Vul een wachtwoord in')" oninput="setCustomValidity('')" required> </div>
+                        <div class="controls">
+                            <button type="submit" value="Submit">Inloggen</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="register">
+                    <h2>NS-account aanvragen</h2>
+                    <ul>
+                        <li>
+                            <p>Creëer een profiel</p>
+                        </li>
+                        <li>
+                            <p>Bewaar uw verhalen</p>
+                        </li>
+                        <li>
+                            <p>Bekijk uw leesgeschiedenis</p>
+                        </li>
+                    </ul>
+                    <a href="register.html">Account aanvragen</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-small">
                 <div class="grid-element">
                     <ul>
-                        <li><a href="#" class="arrow-link">Disclaimer</a></li>
-                        <li><a href="#" class="arrow-link">Privacy</a></li>
-                        <li><a href="#" class="arrow-link">Bedrijfsinformatie</a></li>
-                        <li><a href="#" class="arrow-link">Voorwaarden en folders</a></li>
+                        <li><a href="#" class="arrow-link">Voorwaarden</a></li>
+                        <li><a href="#" class="arrow-link">Privacybeleid</a></li>
+                        <li><a href="#" class="arrow-link">Klantenservice</a></li>
                     </ul>
                 </div>
-                <a href="index.html"><img src="./mat/nslogo.svg" alt="NS logo"></a>
             </div>
-		</div>
-	</footer>
+        </div>
+    </footer>
 </body>
+
 </html>

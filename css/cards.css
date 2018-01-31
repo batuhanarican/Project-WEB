@@ -1,11 +1,11 @@
-main .container section .card {
+section.container .card {
 	position: relative;
 	background-color: white;
 	box-shadow: 0 .15rem 0 rgba(0,0,0,0.2);
 	padding-bottom: 2rem;
 }
 
-main .container section .card img {
+section.container .card img {
 	display: block;
 	object-fit: cover;
 	width: 100%;
@@ -105,18 +105,18 @@ input:checked + .bookmark {
 }
 
 
-main .container section .description {
+section.container .description {
 	position: relative;
 	padding: 2rem;
 }
 
-main .container section .card small {
+section.container .card small {
 	color: #003082;
 	font-size: .8em;
 	font-weight: 400;
 }
 
-main .container section .card .description p {
+section.container .card .description p {
 	position: relative;
 	overflow: hidden;
 	max-height: 4.8rem;
@@ -125,7 +125,7 @@ main .container section .card .description p {
 	margin-bottom: 2rem;
 }
 
-main .container section .card .description p:after {
+section.container .card .description p:after {
   	position: absolute;
 	left: 0;
   	bottom: 0;
