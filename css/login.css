@@ -10,6 +10,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+header a img {
+    max-width: 52px;
+}
+
 main {
     margin: auto;
     max-width: 72rem;
@@ -94,6 +98,15 @@ main div.container-form form div.input input {
     max-width: 30rem;
     border-radius: 0;
     border: 1px solid #b5b5bc;
+    transition: .15s ease-in-out;
+}
+
+main div.container-form form div.input input:focus {
+    background-color: #e6e6e9;
+}
+
+main div.container-form form div.input input:valid {
+    box-shadow: 0px -3px 0px green inset;
 }
 
 main div.container-form div.grid-form form input {

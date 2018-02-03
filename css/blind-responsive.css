@@ -1,0 +1,33 @@
+@media all and (min-width:56rem) {
+    main {
+        max-width: 80rem;
+    }
+    main div.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem;
+    text-align: left;
+    }
+
+    #drag {
+    position: absolute;
+    top: -20rem;
+    z-index: 9; 
+    display: block; 
+    width: 1500px;
+    height: 1500px;    
+    }
+
+    #dragimg {
+    cursor: move;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/blind/pulse2.gif);
+    outline: 50rem solid #070707;
+    }
+
+}

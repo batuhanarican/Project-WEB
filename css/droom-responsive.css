@@ -1,0 +1,31 @@
+@media all and (min-width:40rem) {
+	body {
+		background: url(../img/droom/Tablet.jpg) no-repeat center center fixed;
+		background-size: cover;
+	}
+}
+
+@media all and (min-width:56rem) {
+	
+}
+
+@media all and (min-width:75rem) {
+	body {
+		background: url(../img/droom/Desktop.jpg) no-repeat center center fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	main {
+		padding-top: 6rem;
+		grid-template-columns: 25rem 35rem;
+		vertical-align: middle;
+	}
+	
+	main img {
+		justify-self: start;
+		transform: rotate(-90deg);
+		width: auto;
+		margin-top: 10rem;
+	}
+}

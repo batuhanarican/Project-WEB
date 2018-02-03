@@ -12,3 +12,42 @@
 	background-position: -.5rem;
 	transition: background-position .1s ease-in-out;
 }
+
+nav ul li input.changeSearch {
+    top: .6rem;
+    opacity: 100;
+}
+
+nav ul li:nth-child(3).bookmarkGif {
+    background-image: url(https://oege.ie.hva.nl/~aricane001/pweb/img/bookmarks.gif);
+}
+
+main div.grid article.changeFilosofie {
+    display: none;
+}
+
+main div.grid article.changeVrolijk {
+    display: none;
+}
+
+main div.grid article.changeDrama {
+    display: none;
+}
+
+main div.grid article.changeKomedie {
+    display: none;
+}
+
+main div.grid article.changeFilter {
+    display: none;
+}
+
+main section.container div.filter div.changeFilter {
+    opacity: 100;
+    height: auto;
+}
+
+main section.container div.sort div.changeSort {
+    opacity: 100;
+    height: auto;
+}

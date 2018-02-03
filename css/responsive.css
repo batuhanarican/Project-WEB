@@ -33,6 +33,7 @@
         height: 10rem;
     }
     section.container {
+        margin: 1rem;
         margin-top: 2rem;
     }
     section.container .grid {
@@ -48,9 +49,6 @@
     grid-template-columns: 1fr 2fr;
     }
     main div.container-form div.register ul {
-        grid-template-columns: 1fr 1fr;
-    }
-    footer .container .grid {
         grid-template-columns: 1fr 1fr;
     }
     .footer-small ul {

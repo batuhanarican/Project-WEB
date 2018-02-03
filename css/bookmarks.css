@@ -1,0 +1,97 @@
+h3 {
+    font-size: 1.25em;
+    margin: .8rem 0 .2rem 0rem;
+    font-weight: 400;
+}
+
+main {
+    margin: auto
+    max-width: 70rem;
+}
+
+main header img {
+    max-height: 14rem;
+}
+
+main section div.grid article {
+    position: relative;
+}
+
+main section div.grid article div.description {
+    margin-bottom: 2rem;
+}
+
+main section div.grid article label.delete {
+	position: absolute;
+	width: 1.1rem;
+	height: 1.4rem;
+	right: 1rem;
+	top: 1rem;
+}
+
+main section div.grid article label.delete input {
+	display: none;
+}
+
+main section div.grid article div.load {
+    display: block;
+    position: absolute;
+    top: 9.5rem;
+    height: .5rem;
+    width: 0%;
+    opacity: 1;
+    background-color: rgba(0, 121, 211, 1);
+}
+
+main section div.grid article span.bookmark {
+	background-image: url('../img/delete.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: .3s ease-in-out;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+}
+
+main section div.grid article label input:checked + .bookmark {
+	background-image: url('../img/delete-on.svg');
+	background-repeat: no-repeat;
+}
+
+main section div.grid article div.download {
+    position: absolute;
+    width: 1rem;
+    height: 1.3rem;
+    right: 1.05rem;
+    top: 3rem;
+    cursor: pointer;
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0,0,0,.5));
+    background-image: url(../img/download.svg);
+}
+
+main section div.grid article div.loadJS1 {
+	transition: 2s ease-in-out;
+	width: 100%;
+}
+
+main section div.grid article div.loadJS2 {
+	transition: .5s ease-in-out;
+	opacity: 0;
+}
+
+main section div.grid article div.loadJS3 {
+	transition: 0s ease-in-out;
+    width: 0%;
+    opacity: 1;
+}
+
+main section div.grid article div.downloadJS1 {
+    background-image: url(https://oege.ie.hva.nl/~aricane001/pweb/img/download.gif);
+}
+
+main section div.grid article div.downloadJS2 {
+	background-image: url(https://oege.ie.hva.nl/~aricane001/pweb/img/download-done.svg);
+}

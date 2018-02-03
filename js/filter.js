@@ -46,7 +46,7 @@ function returnFilosofie() {
     if (filosofieData === true) {
         console.log("Filosofie - true");
         for (var i = 0; i < changeFilosofie.length; i ++) {
-        changeFilosofie[i].style.display = '';
+        changeFilosofie[0].classList.remove('changeFilosofie');
         }
     }
 
@@ -54,7 +54,7 @@ function returnFilosofie() {
     else {
         console.log("Filosofie - false");
         for (var i = 0; i < changeFilosofie.length; i ++) {
-        changeFilosofie[i].style.display = 'none';
+            changeFilosofie[0].classList.add('changeFilosofie');
         }
     }
 }
@@ -73,14 +73,15 @@ function returnVrolijk() {
     if (vrolijkData === true) {
         console.log("Vrolijk - true");
         for (var i = 0; i < changeVrolijk.length; i ++) {
-        changeVrolijk[i].style.display = '';
+        changeVrolijk[0].classList.remove('changeVrolijk');
+        }
     }
-    }
+
 
     else {
         console.log("Vrolijk - false");
         for (var i = 0; i < changeVrolijk.length; i ++) {
-        changeVrolijk[i].style.display = 'none';
+            changeVrolijk[0].classList.add('changeVrolijk');
         }
     }
 }
@@ -95,16 +96,18 @@ function checkDrama() {
 checkDrama();
 
 function returnDrama() {
-    if (dramaData == true) {
+    if (dramaData === true) {
         console.log("Drama - true");
         for (var i = 0; i < changeDrama.length; i ++) {
-        changeDrama[i].style.display = '';
+        changeDrama[0].classList.remove('changeDrama');
         }
     }
+
+
     else {
         console.log("Drama - false");
         for (var i = 0; i < changeDrama.length; i ++) {
-        changeDrama[i].style.display = 'none';
+            changeDrama[0].classList.add('changeDrama');
         }
     }
 }
@@ -119,17 +122,18 @@ function checkKomedie() {
 checkKomedie();
 
 function returnKomedie() {
-    if (komedieData == true) {
+    if (komedieData === true) {
         console.log("Komedie - true");
         for (var i = 0; i < changeKomedie.length; i ++) {
-        changeKomedie[i].style.display = '';
+        changeKomedie[0].classList.remove('changeKomedie');
         }
     }
+
 
     else {
         console.log("Komedie - false");
         for (var i = 0; i < changeKomedie.length; i ++) {
-        changeKomedie[i].style.display = 'none';
+            changeKomedie[0].classList.add('changeKomedie');
         }
     }
 }
@@ -144,16 +148,18 @@ function checkLiefde() {
 checkLiefde();
 
 function returnLiefde() {
-    if (liefdeData == true) {
+    if (liefdeData === true) {
         console.log("Liefde - true");
         for (var i = 0; i < changeLiefde.length; i ++) {
-        changeLiefde[i].style.display = '';
+        changeLiefde[0].classList.remove('changeLiefde');
         }
     }
+
+
     else {
         console.log("Liefde - false");
-       for (var i = 0; i < changeLiefde.length; i ++) {
-        changeLiefde[i].style.display = 'none';
+        for (var i = 0; i < changeLiefde.length; i ++) {
+            changeLiefde[0].classList.add('changeLiefde');
         }
     }
 }
@@ -162,16 +168,14 @@ function openFilter() {
     console.log("Filter button - on");
     if (toggleFilter === 0) {
         for (var i = 0; i < changeFilter.length; i ++) {
-            changeFilter[i].style.opacity = '100';
-            changeFilter[i].style.height = 'auto';
+            changeFilter[i].classList.add('changeFilter');
             toggleFilter =+ 1;
             }
         }
     else {
         console.log("Filter button - off");
         for (var i = 0; i < changeFilter.length; i ++) {
-            changeFilter[i].style.opacity = '0';
-            changeFilter[i].style.height = '0';
+            changeFilter[i].classList.remove('changeFilter');
             toggleFilter -= 1;
             }
     }
@@ -181,16 +185,14 @@ function openSort() {
     console.log("Sort button - on");
     if (toggleSort === 0) {
         for (var i = 0; i < changeSort.length; i ++) {
-            changeSort[i].style.opacity = '100';
-            changeSort[i].style.height = 'auto';
+            changeSort[i].classList.add('changeSort');
             toggleSort =+ 1;
             }
         }
     else {
         console.log("Sort button - off");
         for (var i = 0; i < changeSort.length; i ++) {
-            changeSort[i].style.opacity = '0';
-            changeSort[i].style.height = '0';
+            changeSort[i].classList.remove('changeSort');
             toggleSort -= 1;
             }
     }

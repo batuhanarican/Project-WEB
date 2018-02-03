@@ -8,26 +8,15 @@ function openSearch() {
     console.log("Search button - on");
     if (toggleSearch === 0) {
         for (var i = 0; i < changeSearch.length; i ++) {
-            changeSearch[i].style.top = '.6rem';
-            
+            changeSearch[i].classList.add('changeSearch');
             toggleSearch =+ 1;
             }
-            setTimeout(function() {
-                for (var i = 0; i < changeSearch.length; i ++) {
-                    changeSearch[i].style.opacity = '100';
-                }
-            }, 150);
         }
     else {
         console.log("Search button - off");
         for (var i = 0; i < changeSearch.length; i ++) {
-            changeSearch[i].style.opacity = '0';
+            changeSearch[i].classList.remove('changeSearch');
             toggleSearch -= 1;
-            setTimeout(function() {
-                for (var i = 0; i < changeSearch.length; i ++) {
-                    changeSearch[i].style.top = '-3.5rem';
-                }
-            }, 150);
         }
     }
 }

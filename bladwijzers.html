@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/elements.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
+    <link rel="stylesheet" type="text/css" href="css/bookmarks.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Welkom op de website van NS | Mijn bladwijzers</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/nslogo.svg" alt="Logo NS" class="logo"></a>
+            <ul class="navigation">
+                <li>
+                    <label class="search">
+                        <input type="checkbox"><span class="search-btn" id="search-btn"></span> </label>
+                    <input type="text" placeholder="Zoek verhaal" class="search-box"> </li>
+                <li>
+                    <a href="login.html"></a>
+                </li>
+                <li>
+                    <a href="bladwijzers.html"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <header><img src="./img/hero2.jpg" alt="dienstregeling">
+            <div class="container">
+                <div class="hero-header">
+                    <h1>Mijn bladwijzers</h1></div>
+            </div>
+        </header>
+        <section class="container">
+            <h2>Bewaarde bladwijzers</h2>
+            <div class="grid">
+                <article class="card filosofie-data"> <img src="./img/Denkbeeldig.jpg" alt="">
+                    <div class="short-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>177</p>
+                    </div>
+                    <label class="delete">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="download"></div>
+                    <div class="load"></div>
+                    <div class="description">
+                        <h3>Droom</h3> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                    </div> <a href="droom.html" class="cta">Verder lezen</a> </article>
+                <article class="card vrolijk-data"> <img src="./img/Nieuwsgierig.jpg" alt="">
+                    <div class="long-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>121</p>
+                    </div>
+                    <label class="delete">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="download"></div>
+                    <div class="load"></div>
+                    <div class="description">
+                        <h3>Kinderverhaal</h3> <small>Gepubliceerd op 3 juni 2011 door Molovich</small>
+                    </div> <a href="kinderverhaal.html" class="cta">Verder lezen</a> </article>
+                <article class="card drama-data"> <img src="./img/Geluid.jpg" alt="">
+                    <div class="medium-story"></div>
+                    <div class="views-container">
+                        <div class="views"></div>
+                        <p>82</p>
+                    </div>
+                    <label class="delete">
+                        <input type="checkbox"><span class="bookmark"></span> </label>
+                    <div class="download"></div>
+                    <div class="load"></div>
+                    <div class="description">
+                        <h3>Blind</h3> <small>Gepubliceerd op 4 februari 2011 door Molovich</small>
+                    </div> <a href="blind.html" class="cta">Verder lezen</a> </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-small">
+                <div class="grid-element">
+                    <ul>
+                        <li><a href="index.html" class="arrow-link">Home</a></li>
+                        <li><a href="login.html" class="arrow-link">Mijn NS</a></li>
+                        <li><a href="bladwijzers.html" class="arrow-link">Mijn bladwijzers</a></li>
+                    </ul>
+                </div>
+                <a href="index.html"><img src="./img/nslogo.svg" alt="NS logo"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/search.js"></script>
+    <script src="./js/download.js"></script>
+</body>
+
+</html>
